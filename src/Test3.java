@@ -9,8 +9,8 @@ import java.util.LinkedList;
  */
 public class Test3 {
 
-    static Datas traindatas;       //训练集
-    static Datas predictdatas;     //测试集
+    private static Datas traindatas;       //训练集
+    private static Datas predictdatas;     //测试集
 
     static void run() throws Exception{
 

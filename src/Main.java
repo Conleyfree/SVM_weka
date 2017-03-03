@@ -11,7 +11,7 @@ public class Main {
 
 //      Test1.run();     /* 初涉libsvm */
 //      Test2.run();     /* 数量较少，维度只有2的数据集 */
-        Test3.run();     /* 数量多很多，维度为4的数据集 */
+//      Test3.run();     /* 数量多很多，维度为4的数据集 */
 //      DemoTest.run();
         Test4.run();     /* 基于聚类分析的SVM */
 
