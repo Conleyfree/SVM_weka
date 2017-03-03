@@ -14,7 +14,7 @@ public class Test3 {
 
     static void run() throws Exception{
 
-        getDatas("G:/yjs/SVM_weka/src/invest.csv");
+        getDatas("G:/yjs/SVM_weka/src/data/invest.csv");
 
         svm_problem problem = new svm_problem();
         problem.l = traindatas.count;

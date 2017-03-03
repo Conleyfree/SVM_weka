@@ -11,7 +11,7 @@ public class Test2 {
 
     static void run() throws Exception{
          /* 获取训练数据集 */
-        Datas traindatas = getDatas(new String("G:/yjs/SVM_weka/src/trainSet.txt"));
+        Datas traindatas = getDatas(new String("G:/yjs/SVM_weka/src/data/trainSet.txt"));
 
         /* 定义svm_problem对象 */
         svm_problem problem = new svm_problem();
@@ -34,7 +34,7 @@ public class Test2 {
         svm_model model = svm.svm_train(problem, param);
 
         /* 获取代预测数据 */
-        Datas predictDatas = getDatas(new String("G:/yjs/SVM_weka/src/predictSet.txt"));
+        Datas predictDatas = getDatas(new String("G:/yjs/SVM_weka/src/data/predictSet.txt"));
         int count = 0;
         for(int i = 0; i < predictDatas.count; i++){
             System.out.println(svm.svm_predict(model, predictDatas.datas[i]));
